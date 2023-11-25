@@ -3,8 +3,8 @@ html,body{
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(90deg, rgba(1,1,88,0.82),rgb(1,1,29));
-    transition: 1s all ease-in-out;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 6%, rgba(255,0,112,1) 66%);
 }
 #init{
     margin-top: 2rem;
@@ -19,17 +19,18 @@ body{
 }
 .desc p{
     color: rgb(133,153,168);
-    margin: 0;
+    margin: 10px;
     font-weight: 600;
+    padding: 5px;
 }
 .text{
     font-size: 65px;
     font-weight: 800;
     color: cadetblue;
-    margin: 0;
+    margin: 10px;
 }
 .parent{
-    position: relative;
+    position: absolute;
     height: 100%;
     padding: 0 7rem;
     display: flex;
@@ -39,6 +40,7 @@ body{
 .bot-img{
     width: 20rem;
     height: 20rem;
+    margin-right: 15p;
 }
 .child{
     box-shadow: 0 0 2px salmon;
